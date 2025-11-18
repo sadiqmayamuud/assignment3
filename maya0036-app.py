@@ -40,7 +40,9 @@ def showGbp():
 def showEuro():
     # Your code will go here, similar to showUsd()
     # Remove 'pass' once you are done editing your code.
-    pass
+    def showeuro():
+        data = fetch_prices()
+        print("Bitcoin Price in EUR:", data["bpi"]["EUR"]["rate"])
 
 
 while True:
